@@ -30,8 +30,8 @@ class _AboutUsState extends State<AboutUs> {
               launchUrl(Uri(scheme: BaseConfig.companyWebProtocol, host: BaseConfig.companyWebUrl), mode: LaunchMode.externalApplication,);
             }),
             /// 技术服务
-            CommonWidget.simpleWidgetWithUserDetail("技术服务", value: '13563254789', callBack: (){
-              launchUrl(Uri(scheme: 'tel', path: '13563254789'));
+            CommonWidget.simpleWidgetWithUserDetail("技术服务", value: '8888888888', callBack: (){
+              launchUrl(Uri(scheme: 'tel', path: '8888888888'));
             }),
             /// 服务条款
             CommonWidget.simpleWidgetWithUserDetail("服务条款", callBack: (){
@@ -60,7 +60,7 @@ class _AboutUsState extends State<AboutUs> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Image.asset(
-                      Constant.wxGongZhongHao,
+                      Constant.logo,
                       width: 200.w,
                       height: 200.w,
                       fit: BoxFit.fill,
@@ -75,7 +75,7 @@ class _AboutUsState extends State<AboutUs> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Image.asset(
-                      Constant.wxGenRen,
+                      Constant.logo,
                       width: 200.w,
                       height: 200.w,
                       fit: BoxFit.fill,

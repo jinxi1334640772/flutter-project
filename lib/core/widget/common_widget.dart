@@ -269,7 +269,7 @@ class CommonWidget {
       );
     } else if(hasDefault) {
       return Image.asset(
-        Constant.defaultUserAvatar,
+        Constant.logo,
         width: width,
         height: height,
         fit: BoxFit.fill,

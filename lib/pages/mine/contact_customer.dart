@@ -55,8 +55,8 @@ class _ContactCustomerState extends State<ContactCustomer> {
 
   /// 联系电话
   Widget contactPhone(){
-    return CommonWidget.listTileWithMine(title: "联系电话", desc: "13569874523",leadingBackgroundColor: Colors.white, leading: const Icon(Icons.phone, color: Color.fromRGBO(243, 174, 69, 1),), callBack: (){
-      launchUrl(Uri(scheme: 'tel', path: '13569874523'));
+    return CommonWidget.listTileWithMine(title: "联系电话", desc: "8888888888",leadingBackgroundColor: Colors.white, leading: const Icon(Icons.phone, color: Color.fromRGBO(243, 174, 69, 1),), callBack: (){
+      launchUrl(Uri(scheme: 'tel', path: '8888888888'));
     });
   }
 
@@ -69,7 +69,7 @@ class _ContactCustomerState extends State<ContactCustomer> {
 
   /// 官方QQ
   Widget qq(){
-    return CommonWidget.listTileWithMine(title: "官方QQ", desc: "849270773、738664715",leadingBackgroundColor: Colors.white, leading: const Icon(Icons.snapchat_outlined, color: Color.fromRGBO(54, 201, 86, 1),), callBack: (){
+    return CommonWidget.listTileWithMine(title: "官方QQ", desc: "1334640772",leadingBackgroundColor: Colors.white, leading: const Icon(Icons.snapchat_outlined, color: Color.fromRGBO(54, 201, 86, 1),), callBack: (){
       print("添加官方QQ");
     });
   }

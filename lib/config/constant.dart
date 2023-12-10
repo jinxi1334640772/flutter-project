@@ -28,12 +28,8 @@ class Constant {
   /// 主页面 左右侧padding值
   static double paddingLeftRight = 20.w;
 
-  /// 默认用户联系人头像-共用配置(通讯录默认头像)
-  static const defaultUserAvatar = "assets/images/default_avatar.png";
   /// 个人微信
-  static const wxGenRen = "assets/images/weixin_geren.png";
-  /// 公众号微信
-  static const wxGongZhongHao = "assets/images/weixin_gongzhonghao.png";
+  static const logo = "assets/images/logo.png";
 
   static const Color colorGrey = Color.fromRGBO(144, 147, 153, 1);
 
